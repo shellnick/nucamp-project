@@ -1,0 +1,39 @@
+/* nav logo sizing fix */
+
+.main-header .header-upper .logo img {
+	max-width: 120px;
+}
+
+.sticky-header .logo img {
+	max-width: 70px;
+}
+
+/* secondary homepage CTA */
+
+.owl-stage {
+	display: flex;
+	align-items: center;
+}
+
+.sponsors-section .sponsors-outer .image-box img {
+	max-height: 100px;
+}
+
+/* hours changes*/
+
+@media (min-width: 768px) {
+	.hours-container {
+		display: flex;
+		align-items: center;
+	}
+	.hours-col {
+		display: flex;
+		flex-flow: column;
+		align-items: flex-end;
+	}
+}
+/* Gear section on about page*/
+.team-section.bg_light {
+	background: #0d0e1b;
+}
+/*secondary color */
